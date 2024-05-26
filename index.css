@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 nav {
@@ -21,7 +21,6 @@ nav ul {
 
 nav li {
     transition: 0.7s;
-    padding: 0.5em 2em 0.5em 2em;
     position: relative;
     border-radius: 30px;
 }
@@ -29,14 +28,11 @@ nav li {
 nav li:hover {
     transition: 0.7s;
     background-color: #26d100;
-    
-}
-
-nav li:hover a {
-    transition: 0.7s;
+   
 }
 
 nav a {
+    padding: 0.5em 2em 0.5em 2em;
     transition: 0.7s;
     font-size: large;
     text-decoration: none;
@@ -56,20 +52,82 @@ nav a {
 }
 .acceuil div {
     /*border: #bf00e9 solid 2px;*/
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap:10vh;
 }
 
-.acceuil h1{
-    font-size: 45px;
+.acceuil h1 {
+    margin-top: 20vh;
+    align-self: center;
+}
+
+h1{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+p {
+    font-size: x-large;
+}
+
+.presentation {
+    background-color: #e590ff;
+}
+
+.presentation div {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0em 10em 0em 10em;
+    padding-bottom: 3em;
+}
+
+.presentation h1 {
+    margin-top: 2em;
+    margin-left: 2em;
 }
 
 .projets {
-    height: 50vh;
-    background-color: #26d100;
+    background-color: #b7ffa7;
+    padding: 0em 10em 0em 10em;
+
 }
 
+.projets h1 {
+    margin-top: 0;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.projets h3 {
+
+}
+
+.projets p {
+    
+}
+
+.projets hr {
+    width: 100vh;
+    height: 3px;
+    background-color: black;
+    border: 0;
+}
 .contact {
     height: 50vh;
-    background-color: #bf00e9;
+    background-color: white;
 }
 
 
