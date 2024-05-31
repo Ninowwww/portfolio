@@ -1,6 +1,6 @@
 html {
     scroll-behavior: smooth;
-}    
+}
 
 body {
     margin: 0;
@@ -31,8 +31,7 @@ nav li {
 
 nav li:hover {
     transition: 0.7s;
-    background-color: #26d100;
-   
+    background-color: #ff00008b;
 }
 
 nav a {
@@ -67,6 +66,14 @@ nav a {
     align-self: center;
 }
 
+.acceuil img {
+    height: 25em;
+    width: 27.72em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 25px;
+}
+
 h1{
     font-family: Verdana, Tahoma, sans-serif;
     font-size: 65px;
@@ -87,7 +94,7 @@ p {
 }
 
 .presentation {
-    background-color: #e590ff;
+    background-color: #fffacd ;
 }
 
 .presentation div {
@@ -104,9 +111,8 @@ p {
 }
 
 .projets {
-    background-color: #b7ffa7;
+    background-color: #c4c5ff;
     padding: 0em 10em 0em 10em;
-
 }
 
 .projets h1 {
@@ -129,9 +135,23 @@ p {
     background-color: black;
     border: 0;
 }
+
+.projets div {
+    background-color: #fffacd;
+    padding: 2em;
+    border-radius: 15px;
+    margin-bottom: 3em;
+    border: solid black 3px;
+}
+
+
 .contact {
     height: 50vh;
-    background-color: white;
+    background-color:  #fffacd;
+}
+
+.contact h1 {
+    margin: 0;
 }
 
 
